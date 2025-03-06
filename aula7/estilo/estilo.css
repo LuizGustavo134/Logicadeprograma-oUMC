@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+header{
+    background-image: linear-gradient(to bottom , #e45f36, #e97b59 );
+    padding: 15px;
+    padding-bottom: 5px;
+
+}
+nav > a {
+    font-weight: bold;
+    text-decoration:none ;
+
+}
+
+a :hover{
+    background-color: green;
+    
+    padding: 8px;
+    border-radius: 10px;
+}
