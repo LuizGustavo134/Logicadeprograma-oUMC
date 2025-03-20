@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+     <style>
+        .container{
+            border: 1px solid black;
+            width: 60vw;
+            display: flex;
+            padding: 10px;
+            text-align: center;
+            border-radius: 6%;
+        }
+
+        .itens{
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: center;
+            
+        }
+        .itens:hover{
+            /*background-color: green;*/
+            scale: 1.5;
+            transition: 0.19s;
+        
+        }
+        .itens {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: ghostwhite;
+  overflow: hidden;
+}
+
+.itens {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+}
+
+.itens {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.itens::before,
+.itens-io::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.itens::before {
+  content: "";
+  background: #000;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.itens:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.itens:active {
+  transform: scale(0.95);
+}
+
+     </style>
+
+
+</head>
+<body>
+    <h1>FlexBox CSS</h1>
+
+    <div class="container">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+    </div>
+</body>
+</html>
