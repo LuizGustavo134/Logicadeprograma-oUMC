@@ -13,6 +13,6 @@
 
 👀 Sou muito interesado em python e suas aplicações web
 
-🌱 Estudo frequentemente python
+🌱 Estudo frequentemente python e C
 
 📝Atualmente estou fazendo faculdade de ADS 2ºsemestre
