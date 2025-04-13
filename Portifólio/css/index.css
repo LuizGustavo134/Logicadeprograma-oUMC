@@ -2,8 +2,9 @@ html{
   scroll-behavior: smooth;
 }
 body {
+  border: solid 5px black;
    color: white; 
-   background-image: linear-gradient(45deg,blue,rgb(18, 196, 187),rgb(9, 25, 39));
+   background-image: linear-gradient(45deg,blue,rgb(18, 196, 187),rgb(32, 81, 124));
    font-family: Arial, Helvetica, sans-serif;
    padding: 0px 50px;
     }
@@ -16,7 +17,7 @@ body {
  }
 
 a {
-    color: rgb(170, 168, 168);
+    color: rgb(0, 0, 0);
     text-decoration: none; 
 }
  
